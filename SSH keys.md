@@ -35,4 +35,9 @@ Test with
 ```
 ssh -T git@github.com
 ```
-
+## User and Email config 
+finally you need only configure the user and email for the git service to recognize you globally 
+```
+git config --global user.name "your username"
+git config --global user.name "your email"
+```
