@@ -1,4 +1,4 @@
-
+#MIM #arch #setup
 ### 1 drive partitioning
 an arch install needs the drives ready, for this we require 3 different partitions usually:
 
@@ -46,7 +46,7 @@ genfstab /mnt > /mnt/etc/fstab
 
 now you can change root into your new system with 
 ```
-arch-chroot mnt
+arch-chroot /mnt
 ```
 
 first create a simlink to adjust locale settings 
@@ -127,7 +127,7 @@ configuring grub
 ```
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
-
+note the "drive" in this case denotes the full drive and not a partition 
 ### log out, unmount and reboot 
 
 ```

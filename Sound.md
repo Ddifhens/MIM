@@ -1,4 +1,4 @@
-
+#MIM #setup
 the scarlett first gen usb interfaces are open and as such work perfectly on linux. 
 However, for some reason, sometimes although everything seems the same as last boot, an update to the system or just the reboot by itself may mute one or more of the output channels. 
 in this case we can use 

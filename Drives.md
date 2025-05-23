@@ -1,3 +1,4 @@
+#MIM #setup #arch
 this man pages assumes a fresh new linux install as it offers itself to good sequential explanation of certain concepts, but these can be taken and easily adapted to work on any other environment.
 
 setting up your storage is a crucial step towards a working system, this can be divided in smaller increments:
